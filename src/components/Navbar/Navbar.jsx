@@ -54,7 +54,7 @@ const Navbar = () => {
                 </div>
                 <div className='d-flex ms-auto login-section'>
                     <div>
-                        <button onClick={()=>navigate('/login')} className='button mt-2'>Login</button>
+                        <button onClick={() => navigate('/login')} className='button mt-2'>Login</button>
                     </div>
                 </div>
 
@@ -111,6 +111,9 @@ const MobileMenu = () => {
             <i onClick={handleProject}>Projects</i>
             <i onClick={handleContact}>Contact</i>
             <i onClick={handleAbout}>About</i>
+            <i>
+                <button onClick={() => navigate('/login')} className='button mt-2'>Login</button>
+            </i>
         </div>
     );
 };

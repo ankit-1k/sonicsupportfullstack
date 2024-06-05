@@ -11,6 +11,7 @@ const AdminHome = () => {
       <div className="container">
         <main>
           <section className='admin-home-cards'>
+          <h2 className="fw-bold brand-name mb-5 text-center">Admin Rights </h2>
             <div className="d-flex flex-wrap">
               <div className="box red position-relative">
                 <h5>Edit News</h5>

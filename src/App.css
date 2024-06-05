@@ -21,8 +21,12 @@
   transform: translateY(4px);
 }
 
-
-
+.right-0{
+  right: 0px;
+}
+.bg-theme{
+  background-color: #002922;
+}
 .top-icon svg {
   position: fixed;
   right: 20px;

@@ -125,13 +125,22 @@ const MobileMenu = () => {
             behavior: 'smooth'
         });
     }
+    const handleLogout = () => {
+        navigate('/login')
+    }
     return (
-        <div className={'mobile-menu'}>
+        <>
+         <div className={'mobile-menu'}>
             <i>Home</i>
             <i onClick={handleNews}>News</i>
             <i onClick={handleProject}>Projects</i>
             <i onClick={handleContact}>Contact</i>
             <i onClick={handleAbout}>About</i>
+            <i>
+            <button onClick={handleLogout} className='button mt-2'>Logout</button>
+            </i>
         </div>
+        </>
+       
     );
 };
