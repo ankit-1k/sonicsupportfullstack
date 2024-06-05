@@ -18,7 +18,7 @@ const Banner = () => {
           </div>
           <div className="col-md-6">
             <div className="text-container">
-              <h1 className='lg-text'>Welcome to <span className='brand-name'>SonicSupport</span> </h1>
+              <h1 className='lg-text'>Welcome to The <span className='brand-name'>SonicSupport</span> </h1>
               <p>Organize your thoughts, tasks, and ideas with ease. My Notes provides a simple yet powerful platform for managing all your notes in one place. Whether it's jotting down quick reminders, planning your day, or brainstorming new concepts, My Notes has got you covered.</p>
               <p>Start creating and organizing your notes today!</p>
               <div className="button-container">
